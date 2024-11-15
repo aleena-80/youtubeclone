@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="youtube.css" type="text/css">
+    <!-- Favicon for the webpage -->
+    <link rel="icon" href="https://www.freeiconspng.com/uploads/hd-youtube-logo-png-transparent-background-20.png">
+    <!-- remicicon and material icons for icons on the webpage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- header section -->
+    <div class="header">
+        <!-- logo container with menu icon, youtube logo, and text -->
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+                <div class="logo">
+                    <div class="logo-img">
+                        <!-- youtube logo image -->
+                        <img src="https://www.freeiconspng.com/uploads/hd-youtube-logo-png-transparent-background-20.png"alt="">
+                    </div>
+                   <h1 id="logo-txt">YouTube</h1>
+               </div>
+        </div> 
+        <!-- search bar container -->
+        <div class="search-container">
+            <form action="">
+                <!-- search input field -->
+                <input type="text" placeholder="Search">
+            </form>
+            <!-- search button and microphone button -->
+            <button class="search"><i class="ri-search-2-line"></i></button>
+            <button class="mic"><i class="material-icons">keyboard_voice</i></button>
+        </div> 
+        <!-- profile container with video, app, notification icons, and profile image -->
+        <div class="profile-container">
+            <i class="material-icons">video_call</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <div class="profile-box">
+                <!-- profile image -->
+                <img src="https://th.bing.com/th/id/OIP.yscUdQEmkFjDHy8MOds-FwHaFj?rs=1&pid=ImgDetMain" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- main body container -->
+    <div class="body-container">
+        <!-- sidebar navigation with links to differnt sections -->
+        <div class="sidebar">
+            <div class="sidebar-items">
+            <a href="#" class="sidebar-item"><i class="ri-home-5-line"></i>Home</a>
+            <a href="#" class="sidebar-item"><i class="ri-wireless-charging-line"></i>Shorts</a>
+            <a href="#" class="sidebar-item"><i class="ri-rss-line"></i>Subscription</a>
+            <hr>
+            <!-- additional sidebar items -->
+            <a href="#" class="sidebar-item"> You <i class="ri-arrow-right-s-line"></i></a>
+            <a href="#" class="sidebar-item"><i class="material-icons">portrait</i>Your Channel</a>
+            <a href="#" class="sidebar-item"><i class="ri-memories-line"></i>History</a>
+            <a href="#" class="sidebar-item"><i class="ri-play-list-2-fill"></i>Playlist</a>
+            <a href="#" class="sidebar-item"><i class="material-icons">slideshow</i>Your videos</a>
+            <a href="#" class="sidebar-item"><i class="material-icons">lightbulb_outline</i>Your Course</a>
+            <a href="#" class="sidebar-item"><i class="ri-time-line"></i>Watch later</a>
+            <a href="#" class="sidebar-item"><i class="ri-thumb-up-line"></i>Liked videos</a>
+            
+
+            <hr>
+            <!-- subscriptions section in the sidebar -->
+            <h4>Subscription</h4>
+            <a href="#" class="sidebar-item"><i class="material-icons">add_circle_outline</i>Brototype</a>
+            <a href="#" class="sidebar-item"><i class="material-icons">add_circle_outline</i>Sun Music</a>
+            <a href="#" class="sidebar-item"><i class="material-icons">add_circle_outline</i>One Piece</a>
+            <a href="#" class="sidebar-item"><i class="ri-arrow-down-wide-line"></i>Show More</a>
+            <hr>
+            <!-- explore section with vatious categories -->
+            <h4>Explore</h4>
+            <a href="#" class="sidebar-item"><i class="ri-fire-line"></i>Trending</a>
+            <a href="#" class="sidebar-item"><i class="ri-shopping-bag-line"></i>Shopping</a>
+            <a href="#" class="sidebar-item"><i class="ri-music-line"></i>Music</a>
+            <a href="#" class="sidebar-item"><i class="ri-clapperboard-line"></i>Movies</a>
+            <a href="#" class="sidebar-item"><i class="ri-rfid-line"></i>Lives</a>
+            <a href="#" class="sidebar-item"><i class="ri-gamepad-line"></i>Games</a>
+            <a href="#" class="sidebar-item"><i class="ri-news-line"></i>News</a>
+            <a href="#" class="sidebar-item"><i class="ri-trophy-line"></i>Sports</a>
+            <a href="#" class="sidebar-item"><i class="ri-lightbulb-line"></i>Courses</a>
+            <a href="#" class="sidebar-item"><i class="ri-t-shirt-line"></i>Fashion & Beauty</a>
+            <a href="#" class="sidebar-item"><i class="ri-broadcast-line"></i>Poadcast</a>
+            <hr>
+            <!-- more form youtube section -->
+            <h4>More from YouTube</h4>
+            <a href="#" class="sidebar-item"><i class="ri-youtube-line"></i>YouTube Premium </a>
+            <a href="#" class="sidebar-item"><i class="ri-youtube-line"></i>YouTube Music</a>
+            <a href="#" class="sidebar-item"><i class="ri-youtube-line"></i>Youtube Kids</a>
+            <hr>
+            <!-- settion report, help and feedback links -->
+            <a href="#" class="sidebar-item"><i class="ri-settings-4-line"></i>Settings</a>
+            <a href="#" class="sidebar-item"><i class="ri-flag-line"></i>Report history</a>
+            <a href="#" class="sidebar-item"><i class="ri-question-line"></i>Help</a>
+            <a href="#" class="sidebar-item"><i class="ri-feedback-line"></i>Send feedback</a>
+            <hr>
+            <!-- privacy links and copyright information -->
+                <div class="privacy">
+                    <ul>
+                        <li>
+                            <a href="">About</a>
+                            <a href="">Press</a>
+                            <a href="">Copyright</a>
+                        </li>
+                        <li>
+                            <a href="">Contact us</a>
+                            <a href="">Creator</a>
+                            <a href="">Advertise</a>
+                        </li>
+                        <li>
+                            <a href="">Developers</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">Terms</a>
+                            <a href="">Privacy</a>
+                            <a href="">Policy & Safety</a>
+                        </li>
+                        <li>
+                            <a href="">How Youtube works</a>
+                        </li>
+                        <li>
+                            <a href="">Test new features</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <!-- copyright information -->
+                    <p class="copyright">&copy; 2024 Google LLC</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- main content area with chip categories -->
+        <div class="content">
+            <div class="chip-wrapper">
+                <!-- individual chip items for filtering categories -->
+                <div class="chip">
+                    <p>All</p>
+                </div>
+                <div class="chip">
+                    <p>One Piece</p>
+                </div>
+                <div class="chip">
+                    <p>SpyXFmily</p>
+                </div>
+                <div class="chip">
+                    <p>Music</p>
+                </div>
+                <div class="chip">
+                    <p>JavaScript</p>
+                </div>
+                <div class="chip">
+                    <p>Thriller</p>
+                </div>
+                <div class="chip">
+                    <p>Korean-Drama</p>
+                </div>
+                <div class="chip">
+                    <p>Reading</p>
+                </div>
+                <div class="chip">
+                    <p>ACORT</p>
+                </div>
+                <div class="chip">
+                    <p>Coding</p>
+                </div>
+                <div class="chip">
+                    <p>Html</p>
+                </div>
+                <div class="chip">
+                    <p>Css</p>
+                </div>
+                <div class="chip">
+                    <p>Foodie</p>
+                </div>
+                <div class="chip">
+                    <p>Travel</p>
+                </div>
+                <div class="chip">
+                    <p>Stranger Things</p>
+                </div>
+                <div class="chip">
+                    <p>Drawing</p>
+                </div>
+                <div class="chip">
+                    <p>Smurf</p>
+                </div>
+                <div class="chip">
+                    <p>Iron Man</p>
+                </div>
+                <div class="chip">
+                    <p>Keybord</p>
+                </div>
+                <div class="chip">
+                    <p>Typing</p>
+                </div>
+                <div class="chip">
+                    <p>TypeScript</p>
+                </div>
+                <div class="chip">
+                    <p>Pinterest</p>
+                </div>
+                <div class="chip">
+                    <p>Dress</p>
+                </div>
+                <div class="chip">
+                    <p>Sareee</p>
+                </div>
+                <div class="chip">
+                    <p>PhoneCase</p>
+                </div>
+                <div class="chip">
+                    <p>Jo Tum Mere Ho</p>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <!-- video box with thumbnail and time -->
+                        <a href="#" class="video-box">
+                        <img src="https://play-lh.googleusercontent.com/egngeqeHpNCfG8-RwNa7G1Tozw1mZQaGCqxGChg_ryrxT_0FbhbJtAyb6_a72nU8Dvg=w3840-h2160" alt=""><!--channel cover logo-->
+                        <div class="video-time">14:4</div>
+                        </a>
+                        <!-- video details including channel logo and metadata -->
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://frequentjobs.in/wp-content/uploads/2024/02/Brototype-Logo-850x560.png" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Basic coding</h3>
+                                <div class="channel-name">Brototype Malaylalam</div>
+                                <div class="views-upload">
+                                    <div class="views">18k views</div>
+                                    <div class="upload">&#183; 6 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- hidden content for additional options -->
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- additional videos follow the same structure each withits unique details -->
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://wallpapers.com/images/hd/one-piece-waving-and-smiling-luffy-pfp-k8duzadfmlynjogs.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">33:44</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://i.pinimg.com/originals/f4/10/43/f41043ba7dc8673047dd26242ca676df.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">One Piece</h3>
+                                <div class="channel-name">luffy snepai</div>
+                                <div class="views-upload">
+                                    <div class="views">28k views</div>
+                                    <div class="upload">&#183; 1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" alt=""><!--channel cover logo-->
+                        <div class="video-time">4:07</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://image.pbs.org/contentchannels/3467/O93mRSFz5Ccj8O7PF9Gg.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">How to nurture your imagination </h3>
+                                <div class="channel-name">Ted Talks</div>
+                                <div class="views-upload">
+                                    <div class="views">58k views</div>
+                                    <div class="upload">&#183; 4 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/df/37/cddf37f9-9794-175e-d68f-272c8a3853b2/24UMGIM79558.rgb.jpg/1200x1200bf-60.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">2:49</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://i.ytimg.com/vi/TuWxBOTz7M4/maxresdefault.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Anuv jain - JO TUM HO</h3>
+                                <div class="channel-name">Cosmos</div>
+                                <div class="views-upload">
+                                    <div class="views">1.6M views</div>
+                                    <div class="upload">&#183; 1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://static.vecteezy.com/system/resources/previews/002/099/443/non_2x/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">8:27</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://cdn3.vectorstock.com/i/1000x1000/41/12/programming-and-coding-vector-6214112.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Learn coding</h3>
+                                <div class="channel-name">code.com</div>
+                                <div class="views-upload">
+                                    <div class="views">55k views</div>
+                                    <div class="upload">&#183; 5 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://th.bing.com/th/id/R.aac7cab309ddb377d0110f3cd71312f9?rik=%2b867S%2bQ5QNRyGA&riu=http%3a%2f%2fecolonomics.org%2fwp-content%2fuploads%2f2014%2f09%2fsushi-354628_1280.jpg&ehk=dPsMbeMRWoP6%2f1PLEzAeNJOUNNwUPY8q83%2fJDLUN63c%3d&risl=&pid=ImgRaw&r=0" alt=""><!--channel cover logo-->
+                        <div class="video-time">14:44</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://www.morelandobgyn.com/hubfs/Imported_Blog_Media/GettyImages-854725402-1.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Cooking Class</h3>
+                                <div class="channel-name">Cook</div>
+                                <div class="views-upload">
+                                    <div class="views">258k views</div>
+                                    <div class="upload">&#183; 4 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://th.bing.com/th/id/R.e80f12716edc090aecbbd9204ca94d57?rik=7apVWHujS44%2feg&riu=http%3a%2f%2fhoneymoonbug.com%2fblog%2fwp-content%2fuploads%2f2017%2f07%2fsonamarg1-min.jpg&ehk=xdV52zY2K09UHN4dwOomSABCQL6%2bmvi6J6%2fbxWdWAdM%3d&risl=&pid=ImgRaw&r=0" alt=""><!--channel cover logo-->
+                        <div class="video-time">16:24</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://png.pngtree.com/background/20230410/original/pngtree-travel-around-the-world-background-picture-image_2385120.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Trip to Kahmir</h3>
+                                <div class="channel-name">travel</div>
+                                <div class="views-upload">
+                                    <div class="views">1m views</div>
+                                    <div class="upload">&#183; 7 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://th.bing.com/th/id/OIP.lwoEv-WtDO1Ufj09y-uXFAHaEJ?rs=1&pid=ImgDetMain" alt=""><!--channel cover logo-->
+                        <div class="video-time">22:52</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://cdn.tinybuddha.com/wp-content/uploads/2016/06/Cloud-head.png" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">How to calm to mind</h3>
+                                <div class="channel-name">Mindset</div>
+                                <div class="views-upload">
+                                    <div class="views">1M views</div>
+                                    <div class="upload">&#183; 1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/df/37/cddf37f9-9794-175e-d68f-272c8a3853b2/24UMGIM79558.rgb.jpg/1200x1200bf-60.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">13:24</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://i.ytimg.com/vi/TuWxBOTz7M4/maxresdefault.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Anuv jain - JO TUM HO</h3>
+                                <div class="channel-name">Cosmos</div>
+                                <div class="views-upload">
+                                    <div class="views">1.6M views</div>
+                                    <div class="upload">&#183; 1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://saitnationproduction.blob.core.windows.net/itnation-media/2023/09/Digital.ai-unveils-the-latest-version-of-AI-enhanced-DevOps-product-.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">11:4</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://itchronicles.com/wp-content/uploads/2020/11/where-is-ai-used.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Projects based on AI</h3>
+                                <div class="channel-name">AI Learning</div>
+                                <div class="views-upload">
+                                    <div class="views">287k views</div>
+                                    <div class="upload">&#183; 1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://i.pinimg.com/736x/fc/02/a0/fc02a00e4b75da9b4a5e61174b5d0a49.jpg" alt=""><!--channel cover logo-->
+                        <div class="video-time">10:14</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://wallpapercave.com/wp/wp8130764.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Listen to the music</h3>
+                                <div class="channel-name">Music</div>
+                                <div class="views-upload">
+                                    <div class="views">28M views</div>
+                                    <div class="upload">&#183; 4 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                        <img src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" alt=""><!--channel cover logo-->
+                        <div class="video-time">15:4</div>
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="https://image.pbs.org/contentchannels/3467/O93mRSFz5Ccj8O7PF9Gg.jpg" alt=""><!--channel logo imag-->
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">How to nurture your imagination </h3>
+                                <div class="channel-name">Ted Talks</div>
+                                <div class="views-upload">
+                                    <div class="views">58k views</div>
+                                    <div class="upload">&#183; 4 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="material-icons">more_vert</i></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+      </div>
+</body>
+
+
